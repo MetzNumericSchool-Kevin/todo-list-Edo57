@@ -58,6 +58,7 @@ export function TodoApp() {
             key={todo.id}
             className={`w-full rounded-box p-3 flex items-center justify-between ${
               todo.done ? "bg-indigo-900" : "bg-indigo-700"
+              
             }`}
           >
             <span className="pr-3">
